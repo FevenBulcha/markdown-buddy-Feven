@@ -1,0 +1,39 @@
+---
+title: "Script Documentation"
+author: "Feven"
+date: "2026-11-15"
+output: html_document
+---
+
+# Purpose
+
+This document describes the purpose, inputs, outputs, and functionality of the R script used in this project.
+
+# Inputs
+
+- Dataset used for analysis
+- User-defined parameters
+
+# Outputs
+
+- Summary statistics
+- Processed dataset
+- Visualizations and results
+
+# Example Code
+
+```{r}
+# Load data
+data <- read.csv("data.csv")
+
+# View summary
+summary(data)
+```
+
+# Notes
+
+This script demonstrates basic data analysis and data processing techniques in R.
+
+# AI Assistance Declaration
+
+I used Microsoft Copilot for documentation drafting and formatting assistance. I reviewed and verified all content before submission.
